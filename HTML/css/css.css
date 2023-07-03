@@ -1,0 +1,26 @@
+h1 {
+    text-decoration: underline;
+    color: rgb(128,145);
+    background-color: #757575;
+    text-align: center;
+}
+
+.containerTam {
+    display: flex;
+    padding-left: 5px;
+}
+
+.tam {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 70%;
+    font-size: 11px;
+}
+
+.faltando {
+    text-decoration: line-through;
+    font-weight: bold;
+    border: 2px solid red;
+}
