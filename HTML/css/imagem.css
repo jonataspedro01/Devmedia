@@ -1,0 +1,29 @@
+body {
+    background-image: url('../img/capa-livro.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+}
+
+/* forma resumida
+background: top right no-repeat #0f0 fixed url('img/fundo-floresta.jpg'); */
+
+/* .imagens {
+    padding: 20px 20px;
+} */
+
+/* .img__one {
+    margin-bottom: 50px;
+    height: 250px;
+    width: 250px;
+    background-image: url('../img/capa-livro.jpg');
+    background-repeat: repeat-x;
+}
+
+.img__two {
+    height: 250px;
+    width: 250px;
+    background-image: url('../img/parque-ilha-bela.jpg');
+} */
