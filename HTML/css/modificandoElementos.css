@@ -1,0 +1,138 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: orange;
+}
+
+/* 
+
+main {
+    visibility: hidden;
+} 
+
+Ocultar da tela elementos, porém 
+mantendo seu espaço ocupado.
+
+*/
+
+h1 {
+    /* opacity: 50%; */
+    background-color: blue;
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+div {
+    visibility: 50%;
+}
+
+p {
+    border: 3px solid black;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 20px 2px 0;
+}
+
+span {
+    margin-top: 40px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 30px 20px white inset;
+}
+
+/* Pontilhado */
+.bordaTipos {
+    border-style: dotted; 
+}
+
+/* Tracejado */
+.bordaTipos2 {
+    border-style: dashed; 
+}
+
+.vamos {
+    background-color: blue;
+    color: white;
+    font-size: 40px;
+    opacity: 50%;
+    text-align: center;
+    max-width: 500px;
+    max-height: 120px;
+}
+
+.um {
+    display: block;
+    margin-top: 30px;
+}
+
+.one {
+    margin-bottom: 30px;
+}
+
+.imagens {
+    display: block;
+}
+
+/* - A imagem deve ter uma sombra deslocada 15px para direita e 30px para baixo
+- A sombra da imagem deve ter desfoque de 12px e deve ser expandida em 5px
+- A sombra deve ter a cor verde RGB (0, 255, 0) */
+
+.imagem {
+    box-shadow: 15px 30px 12px 5px rgb(0, 255, 0);
+    margin-bottom: 230px;
+}
+
+/* -20px é o deslocamento horizontal da sombra para a esquerda (valor negativo).
+-15px é o deslocamento vertical da sombra para cima (valor negativo).
+10px é o desfoque da sombra.
+5px é a expansão da sombra. */
+
+.imagem2 {
+    box-shadow: -20px -15px 10px 5px;
+    margin-top: 30px;
+}
+
+
+/* - A sombra deve ter deslocamento de 10px para direita
+- A sombra deve ter deslocamento de 15px para cima
+- A sombra deve ter um desfoque de 25px
+- A sombra deve ser expandida em 12px
+- A sombra deve ter a cor vermelha em formato nominal */
+
+.imagem3 {
+    box-shadow: 10px -15px 25px 12px red;
+    display: block;
+    margin-top: 30px;
+}
+
+/* Valores negativos são usados ​​na propriedade box-shadow 
+para especificar deslocamentos na direção oposta à posição padrão. 
+A posição padrão para o deslocamento horizontal é para a direita, 
+e para o deslocamento vertical é para baixo. Quando você usa valores 
+negativos, está deslocando a sombra na direção oposta à posição padrão. */
+
+footer {
+    margin-top: 50px;
+}
+
+.rodape {
+    background-color: yellowgreen;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 60px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 20px;
+    padding: 40px;
+    overflow-x: scroll;
+    overflow-y:hidden;
+}

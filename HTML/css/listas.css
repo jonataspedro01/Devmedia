@@ -1,0 +1,9 @@
+footer {
+    background-color: azure;
+    margin: 0 auto;
+    border: 3px solid yellowgreen;
+}
+
+footer h3, p {
+    text-align: center;
+}
