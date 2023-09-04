@@ -1,3 +1,8 @@
+html { 
+    min-width: 320px; 
+    max-width: 1400px; 
+}
+
 body {
     padding: 0px;
     margin: 0px;
@@ -14,6 +19,28 @@ Ocultar da tela elementos, porém
 mantendo seu espaço ocupado.
 
 */
+
+.btn {
+    border-radius: 80px 30px 70px 50px;
+    /* 
+    valores: 
+    1- Canto superior esquerdo 
+    2- Canto superior direito 
+    3- Canto inferior direito 
+    4- Canto inferior esquerdo 
+    */
+
+    /* 
+    Forma reduzida:
+    border-radius: 25px 10px; 
+    1- Canto superior esquerdo e canto inferior direito;
+    2- Canto superior direito e canto inferior esquerdo;
+    */
+
+    background-color: red;
+    padding: 30px;
+    margin-top: 30px;
+}
 
 h1 {
     /* opacity: 50%; */
@@ -56,6 +83,22 @@ span {
 /* Tracejado */
 .bordaTipos2 {
     border-style: dashed; 
+}
+
+.div_fixa {
+  position: fixed;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid white;
+  right: 35px;
+  bottom: 20px;
+  background-color: green;
+}
+
+.div_fixa:hover {
+    background-color: white;
+    color: green;
+    cursor: pointer;
 }
 
 .vamos {
@@ -118,6 +161,94 @@ para especificar deslocamentos na direção oposta à posição padrão.
 A posição padrão para o deslocamento horizontal é para a direita, 
 e para o deslocamento vertical é para baixo. Quando você usa valores 
 negativos, está deslocando a sombra na direção oposta à posição padrão. */
+
+.quinta {
+    background-color: white;
+    margin: 0 auto;
+    height: 200px;
+    position: relative;
+    width: 50%
+}
+
+.sexta {
+    position: absolute;
+    background-color: red;
+    width: 10%;
+    height: 50px;
+    top: 5px;
+    right: 5px;
+}
+
+.quarta {
+    position: absolute;
+    background-color: yellow;
+    width: 10%;
+    height: 50px;
+    top: 5px;
+    left: 5px;
+}
+
+.segunda {
+    position: absolute;
+    background-color: green;
+    width: 10%;
+    height: 50px;
+    bottom: 5px;
+    left: 5px;
+}
+
+.terca {
+    position: absolute;
+    background-color: black;
+    width: 10%;
+    height: 50px;
+    bottom: 5px;
+    right: 5px;
+}
+
+/* 
+
+top : move o elemento na vertical, de cima para baixo;
+bottom : move o elemento na vertical, de baixo para cima;
+left : move o elemento na horizontal, da esquerda para a direita;
+right : move o elemento na horizontal, da direita para a esquerda;
+
+ */
+
+ .boxNoticia p {
+  
+    position: relative
+    ;
+      
+    left: 20px
+    ;
+      
+    right: 15px
+    ;
+      
+    width: 600px
+    ;
+      
+    height: 300px
+    ;
+      
+    box-sizing: border-box
+    ;
+      
+    font-size: 14px
+    ;
+      
+    border-radius: 7px
+    ;
+      
+    line-height: 32px
+    ;
+      box-shadow: 0px 2px 10px;
+      margin: 40px auto;
+      
+    text-decoration: underline
+    ;
+    }
 
 footer {
     margin-top: 50px;

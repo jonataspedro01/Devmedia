@@ -1,0 +1,219 @@
+html {
+    background-color: burlywood;
+    overflow-x: hidden;
+    /* Esconde a barra de rolagem horizontal */
+    overflow-y: auto;
+    /* Habilita a rolagem vertical quando necessário */
+    /* overflow: hidden auto; testar */
+}
+
+html,
+body,
+main {
+    margin: 0px;
+    margin: 0px;
+}
+
+
+
+/* flex: <valor flex-grow> 
+<valor do flex-shrink> 
+<valor do flex-basis>;
+
+flex: 1 1 200px; */
+
+
+header {
+    background-color: aliceblue;
+    border: 2px solid black;
+    width: 100%;
+
+}
+
+header h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+header:hover {
+    background-color: rgb(192, 192, 61);
+    cursor: pointer;
+}
+
+header h1:hover {
+    color: rgb(121, 114, 114);
+}
+
+main {
+    padding: 0px;
+    margin-top: 23px;
+}
+
+.container {
+    display: flex;
+    background-color: brown;
+    height: 300px;
+    /* justify-content: space-around;
+    flex-wrap: wrap; */
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* align-items: end; */
+    /* justify-content: flex-end; */
+    /* flex-grow: 150px; */
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+/* div { */
+    /* background-color: white;
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    margin-left: 9px;
+    margin-right: 6px;
+    margin-top: 20px;
+    flex-grow: 1; */
+
+  /* flex-shrink: 2;
+  flex-basis: auto; */
+/* flex-direction: column; */
+/* flex-grow: 1; */
+
+/* } */
+
+/* .salmos{
+    flex-wrap: ;
+} */
+
+div {
+    background-color: white;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+div .item-maior {
+flex-grow: 1;
+}
+
+.cont {
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: yellow;
+    width: 100px;
+    height: 80px;
+    align-items: center;
+    justify-content: center; 
+}
+.salmos {
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    padding-top: 12px;
+    margin-bottom: 10px;
+}
+
+.cont:hover {
+    background-color: yellowgreen;
+}
+
+.cont a:visited {
+    color: red;
+}
+
+.paragrafos {
+    display: block;
+    width: 300px;
+    height: 180px;
+}
+
+/* primeiro */
+p:first-of-type {
+    color: blue;
+}
+
+/* último */
+p:last-of-type {
+    color: green;
+}
+
+/* escolha */
+p:nth-of-type(2) {
+    color: pink;
+}
+
+/* escolha */
+.paragrafos p:nth-of-type(4) {
+    color: #65b3eb;
+}
+
+/* aplicar em todos valores impares
+p:nth-of-type(odd) {
+    color: pink;
+} */
+
+/* aplicar em todos valores pares
+p:nth-of-type(even) {
+    color: pink;
+} */
+
+.outroParagrafo {
+    margin-top: 80px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* outras formas: last, nth-child(2), odd, even*/
+
+.outroParagrafo span:first-child {
+    color: red;
+}
+
+/* Primeira letra */
+article::first-letter {
+    font-size: 32px;
+}
+
+/* Primeira linha */
+article::first-line {
+    background: yellow;
+  }
+
+.god {
+    display: block;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 10px;
+    width: 700px;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+
+.god h4::before {
+    content: "Deus é ";
+    color: black;
+    font-size: 20px;
+ }
+
+ li::after {
+    content: "";
+    content: url("../img/rj.jpeg");
+ }
+
+ /* ul {
+    list-style-type: none;
+    padding: 0;
+  } */

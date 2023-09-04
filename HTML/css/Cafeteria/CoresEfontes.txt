@@ -1,0 +1,16 @@
+Fontes utilizadas no projeto:
+
+font-family: 'Fraunces', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+Cores utilizadas:
+
+Paleta de cores utilizada na página da cafeteria.
+
+#c4a47c
+#fff
+#000000
+#604829
+#666
+#ACACAC
